@@ -1,0 +1,50 @@
+.wrap
+{
+    width: 1280px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* h_lnb */
+.h_lnb
+{
+    width: 100%;
+    height: 60px;
+    background-color: #e2e2e2;
+    margin: 33px 0;
+    padding-top: 20px;
+    padding-left: 65%;
+    box-sizing: border-box;
+}
+.h_lnb>.wrap>p
+{
+    float: left;
+    font: 12px 'notosanskr';
+    padding: 0 40px;
+}
+
+p.p_gnb{border-left: 1px solid #000;}
+p.p_lnb{border-left: 1px solid #000;}
+
+/* sub3_con */
+.s3_h2{font: bold 48px 'notosanskr'; margin: 80px 40%;}
+
+.cf_list{}
+.cf_list li
+{
+    float: left;
+    width: 400px;
+    height: 374px;
+    margin: 0 40px 40px 0;
+    border: 1px solid #71b200;
+    box-sizing: border-box;
+    position: relative;
+}
+.cf_list li:nth-child(3n){margin-right: 0;}
+.cfvid{position: absolute; top: 0; left: 0;}
+.cftxt{position: absolute; bottom: 0; left: 0; padding: 0 20px 20px 40px; width: 400px; box-sizing: border-box;}
+.cftxt a{display: block; cursor: pointer;}
+.cf_h4{font: 500 21px 'notosanskr';}
+.cf_h5{font: 500 12px 'notosanskr'; margin-top: 20px; text-align: right;}
+
+button.cf_btn{font: 500 24px 'notosanskr'; color: #fff; padding: 10px 80px; border: none; background-color: #71b200; border-radius: 50px; display: block; cursor: pointer; margin: 50px auto 120px;}

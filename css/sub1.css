@@ -1,0 +1,241 @@
+.wrap
+{
+    width: 1280px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* h_lnb */
+.h_lnb
+{
+    width: 100%;
+    height: 60px;
+    background-color: #e2e2e2;
+    margin: 33px 0;
+    padding-top: 20px;
+    padding-left: 65%;
+    box-sizing: border-box;
+}
+.h_lnb>.wrap>p
+{
+    float: left;
+    font: 12px 'notosanskr';
+    padding: 0 40px;
+}
+
+p.p_gnb{border-left: 1px solid #000;}
+p.p_lnb{border-left: 1px solid #000;}
+
+/* scon */
+.scon{text-align: center;}
+.scon h2
+{
+    font: bold 48px 'notosanskr';
+    margin-bottom: 80px;
+}
+.scon h2::after
+{
+    content: '';
+    display: block;
+    width: 67px;
+    height: 3px;
+    background: #000;
+    margin: 40px auto;
+}
+.scon h3
+{
+    font: bold 48px 'notosanskr';
+    margin-bottom: -15px;
+}
+.scon h4
+{
+    font: 18px 'notosanskr';
+}
+.scon h5
+{
+    font: 500 24px 'notosanskr';
+    color: #fff;
+}
+.scon h5::after
+{
+    content: '';
+    display: block;
+    width: 215px;
+    height: 3px;
+    background: #fff;
+    margin: 20px auto;
+}
+.scon h6
+{
+    font: 16px 'notosanskr';
+    color: #fff;
+}
+
+/* scon1 */
+.scon1
+{
+    width: 100%;
+    height: 900px;
+    margin: 80px auto;
+}
+.scon1>h4>strong
+{
+    font: 500 21px 'notosanskr';
+    color: #e96e00;
+}
+.scon_list
+{
+    margin-top: 80px;
+}
+.scon_list li
+{
+    float: left;
+    width: 320px;
+    height: 320px;
+}
+p.scon_pic{}
+p.scon_txt{}
+.scon1>.scon_list li:nth-child(1){background: url(../img/img/jordan-F6zbVVWVmGY-unsplash.jpg) no-repeat; background-size: cover;}
+.scon1>.scon_list li:nth-child(2){background-color: #006c76; padding: 70px 0; box-sizing: border-box;}
+.scon1>.scon_list li:nth-child(3){background: url(../img/img/nathan-dumlao-bRdRUUtbxO0-unsplash.jpg) no-repeat; background-size: cover;}
+.scon1>.scon_list li:nth-child(4){background-color: #83c5be; padding: 85px 0; box-sizing: border-box;}
+
+/* scon2 */
+.scon2
+{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+.scon2>h4>strong
+{
+    font-weight: 500;
+    color: #71b200;
+}
+
+/* scon3 */
+.scon3
+{
+    width: 100%;
+    height: 800px;
+    padding: 40px 0;
+}
+.scon3>.scon_list li:nth-child(1){background: url(../img/img/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg) no-repeat 50% 0; background-size: cover;}
+.scon3>.scon_list li:nth-child(2){background-color: #cbdfbd; padding: 85px 0; box-sizing: border-box;}
+.scon3>.scon_list li:nth-child(3){background: url(../img/img/bee-naturalles-0liWd-xi1v4-unsplash.jpg) no-repeat 30% 0; background-size: cover;}
+.scon3>.scon_list li:nth-child(4){background-color: #d4e09b; padding: 85px 0; box-sizing: border-box;}
+
+/* scon4 */
+.scon4
+{
+    width: 100%;
+    height: 953px;
+    position: relative;
+    padding-top: 100px;
+}
+.p1{}
+.p1 a
+{
+    width: 265px;
+    height: 252px;
+    background: url(../img/pentagon/Artboard\ 13\ copy.png) no-repeat;
+    position: absolute;
+    top: 300px;
+    left: 29.3%;
+    padding-top: 130px;
+    padding-left: 40px;
+    color: #fff;
+    font: bold 21px 'notosanskr';
+}
+.p1 p
+{
+    position: absolute;
+    top: 300px;
+    left: 20%;
+    text-align: right;
+}
+.p2{}
+.p2 a
+{
+    width: 265px;
+    height: 252px;
+    background: url(../img/pentagon/Artboard\ 13.png) no-repeat;
+    position: absolute;
+    top: 300px;
+    right: 29.5%;
+    padding-top: 150px;
+    padding-right: 45px;
+    box-sizing: border-box;
+    color: #fff;
+    font: bold 21px 'notosanskr';
+}
+.p2 p
+{
+    position: absolute;
+    top: 300px;
+    right: 20%;
+    text-align: left;
+}
+.p3{}
+.p3 a
+{
+    display: block;
+    width: 265px;
+    height: 311px;
+    background: url(../img/pentagon/Artboard\ 13\ copy\ 4.png) no-repeat;
+    position: absolute;
+    top: 491.4px;
+    right: 29.5%;
+    padding-top: 110px;
+    color: #fff;
+    font: bold 21px 'notosanskr';
+}
+.p3 p
+{
+    position: absolute;
+    top: 600px;
+    right: 8%;
+    text-align: left;
+}
+.p4{}
+.p4 a
+{
+    display: block;
+    width: 326px;
+    height: 252px;
+    background: url(../img/pentagon/Artboard\ 13\ copy\ 2.png) no-repeat;
+    position: absolute;
+    top: 550.6px;
+    right: 37.4%;
+    padding-top: 150px;
+    color: #fff;
+    font: bold 21px 'notosanskr';
+}
+.p4 p
+{
+    position: absolute;
+    top: 850px;
+    left: 40.8%;
+    text-align: center;
+}
+.p5{}
+.p5 a
+{
+    display: block;
+    width: 265px;
+    height: 311px;
+    background: url(../img/pentagon/Artboard\ 13\ copy\ 3.png) no-repeat;
+    position: absolute;
+    top: 491.8px;
+    left: 29.2%;
+    padding-top: 110px;
+    color: #fff;
+    font: bold 21px 'notosanskr';
+}
+.p5 p
+{
+    position: absolute;
+    top: 600px;
+    left: 11%;
+    text-align: right;
+}

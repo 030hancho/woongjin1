@@ -1,0 +1,123 @@
+.wrap
+{
+    width: 1280px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* footer */
+#footer
+{
+    width: 100%;
+    height: 210px;
+    padding-top: 50px;
+    background-color: #eaeaea;
+}
+
+/* ft_left */
+.ft_left
+{
+    float: left;
+    width: 70%;
+}
+
+h3.ft_logo img
+{
+    width: auto;
+    height: 78px;
+}
+
+.ft_list
+{
+    height: 20px;
+    padding: 17px 0;
+}
+.ft_list li
+{
+    float: left;
+}
+.ft_list li a
+{
+    font: 11px 'notosanskr';
+    padding-right: 20px;
+}
+.ft_list li:nth-child(4) a
+{
+    padding-right: 10px;
+}
+.ft_list li:nth-child(6) a
+{
+    padding-right: 10px;
+}
+
+.ft_left address
+{
+    display: block;
+    height: 20px;
+}
+.ft_left address p
+{
+    font: 11px 'notosanskr';
+    padding-right: 10px;
+}
+.ft_left address .pl{float: left;}
+.ft_left address .pr{float: left;}
+
+h5.ft_cp
+{
+    font: 11px 'notosanskr';
+    height: 20px;
+    margin: 10px 0;
+}
+
+/* ft_right */
+.ft_right
+{
+    float: right;
+    width: 30%;
+}
+
+.rightlist{}
+
+.ft_shop
+{
+    float: left;
+    height: 40px;
+}
+.ft_shop a{display: block;}
+.ft_shop a img
+{
+    width: auto;
+    height: 40px;
+}
+
+.ft_fs
+{
+    float: right;
+    height: 40px;
+}
+.ft_fs select
+{
+    padding: 10px 20px;
+    border: 1px solid #6f7271;
+}
+
+.rightsns
+{
+    float: right;
+    margin-top: 30px;
+}
+.rightsns li
+{
+    float: left;
+}
+.rightsns li a
+{
+    display: block;
+    margin-left: 8px;
+}
+.rightsns li a img
+{
+    width: 30px;
+    height: 30px;
+}

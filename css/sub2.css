@@ -1,0 +1,147 @@
+.wrap
+{
+    width: 1280px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* h_lnb */
+.h_lnb
+{
+    width: 100%;
+    height: 60px;
+    background-color: #e2e2e2;
+    margin: 33px 0;
+    padding-top: 20px;
+    padding-left: 65%;
+    box-sizing: border-box;
+}
+.h_lnb>.wrap>p
+{
+    float: left;
+    font: 12px 'notosanskr';
+    padding: 0 40px;
+}
+
+p.p_gnb{border-left: 1px solid #000;}
+p.p_lnb{border-left: 1px solid #000;}
+
+/* icon_list */
+.category
+{
+    width: 100%;
+    height: 1500px;
+    position: relative;
+}
+.icon_list
+{
+    width: 100%;
+    height: 166px;
+    margin-top: 50px;
+    padding: 0 8%;
+    box-sizing: border-box;
+}
+.icon_list li
+{
+    float: left;
+    margin-right: 40px;
+}
+.icon_list li:last-child{margin-right: 0;}
+.icon_list li a{display: block;}
+.icon_list li:nth-child(1) a .icon{background: url(../img/icon/allmenu_000.png) no-repeat;}
+.icon_list li:nth-child(2) a .icon{background: url(../img/icon/juice_000.png) no-repeat;}
+.icon_list li:nth-child(3) a .icon{background: url(../img/icon/tea_000.png) no-repeat;}
+.icon_list li:nth-child(4) a .icon{background: url(../img/icon/grain_000.png) no-repeat;}
+.icon_list li:nth-child(5) a .icon{background: url(../img/icon/coffee_000.png) no-repeat;}
+.icon_list li:nth-child(6) a .icon{background: url(../img/icon/soda_000.png) no-repeat;}
+.icon_list li:nth-child(7) a .icon{background: url(../img/icon/baby_000.png) no-repeat;}
+.icon_list li:nth-child(8) a .icon{background: url(../img/icon/water_000.png) no-repeat;}
+.icon_list li:nth-child(9) a .icon{background: url(../img/icon/healty_000.png) no-repeat;}
+.icon_list li:nth-child(10) a .icon{background: url(../img/icon/cookie_000.png) no-repeat;}
+.icon
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin: 0 auto 15px;
+}
+.icon_list li:nth-child(1) a .icon.on{background: url(../img/icon/allmenu_fff.png) no-repeat; background-color: #71b200; border: 1px solid #71b200;}
+.icon_list li:nth-child(2) a .icon.on{background: url(../img/icon/juice_fff.png) no-repeat; background-color: #71b200; border: 1px solid #71b200;}
+.icon_list li:nth-child(3) a .icon.on{background: url(../img/icon/tea_fff.png) no-repeat; background-color: #71b200; border: 1px solid #71b200;}
+.icon_list li:nth-child(4) a .icon.on{background: url(../img/icon/grain_fff.png) no-repeat; background-color: #71b200; border: 1px solid #71b200;}
+.icon_list li:nth-child(5) a .icon.on{background: url(../img/icon/coffee_fff.png) no-repeat; background-color: #71b200; border: 1px solid #71b200;}
+.icon_list li:nth-child(6) a .icon.on{background: url(../img/icon/soda_fff.png) no-repeat; background-color: #71b200; border: 1px solid #71b200;}
+.icon_list li:nth-child(7) a .icon.on{background: url(../img/icon/baby_fff.png) no-repeat; background-color: #71b200; border: 1px solid #71b200;}
+.icon_list li:nth-child(8) a .icon.on{background: url(../img/icon/water_fff.png) no-repeat; background-color: #71b200; border: 1px solid #71b200;}
+.icon_list li:nth-child(9) a .icon.on{background: url(../img/icon/healty_fff.png) no-repeat; background-color: #71b200; border: 1px solid #71b200;}
+.icon_list li:nth-child(10) a .icon.on{background: url(../img/icon/cookie_fff.png) no-repeat; background-color: #71b200; border: 1px solid #71b200;}
+.icon_list li a p
+{
+    text-align: center;
+    font: 500 16px 'notosanskr';
+}
+.icon_list li a p.on{color: #71b200;}
+
+/* drink_list */
+p.count{font: 500 16px 'notosanskr'; margin: 30px 0;}
+p.count strong{color: #71b200; font-weight: bold;}
+
+.list{}
+.list li
+{
+    float: left;
+    width: 320px;
+    height: 320px;
+    border: 1px solid #71b200;
+    border-left: none;
+    border-top: none;
+    box-sizing: border-box;
+}
+.list li:nth-child(1){border-top: 1px solid #71b200;}
+.list li:nth-child(2){border-top: 1px solid #71b200;}
+.list li:nth-child(3){border-top: 1px solid #71b200;}
+.list li:nth-child(4){border-top: 1px solid #71b200;}
+.list li:nth-child(4n+1){border-left: 1px solid #71b200;}
+
+.list li a{text-align: center; display: block;}
+
+.list li a .dimg{width: 150px; height: 230px; margin: 0 auto;}
+
+.all_list li:nth-child(1) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.all_list li:nth-child(2) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.all_list li:nth-child(3) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.all_list li:nth-child(4) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.all_list li:nth-child(5) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.all_list li:nth-child(6) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.all_list li:nth-child(7) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.all_list li:nth-child(8) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.all_list li:nth-child(9) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.all_list li:nth-child(10) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+
+.juice_list li:nth-child(1) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.juice_list li:nth-child(2) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.juice_list li:nth-child(3) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.juice_list li:nth-child(4) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.juice_list li:nth-child(5) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+.juice_list li:nth-child(6) a .dimg{background: url(../img/brand/pic/jayeon_apple360.jpg) no-repeat center;}
+
+
+.list li a h5{font: 500 14px 'notosanskr';}
+.list li a h4{font: bold 21px 'notosanskr';}
+.list li h3{font: bold 30px 'notosanskr'; margin: 20px 150px;}
+
+.list.on{display: block;}
+
+.all_list{display: none;}
+.juice_list{display: none;}
+.tea_list{display: none;}
+.grain_list{display: none;}
+.coffee_list{display: none;}
+.drink_list{display: none;}
+.baby_list{display: none;}
+.water_list{display: none;}
+.healty_list{display: none;}
+.snack_list{display: none;}
+
+button.morepage_btn{font: 500 24px 'notosanskr'; color: #fff; padding: 10px 80px; border: none; background-color: #71b200; border-radius: 50px; display: block; cursor: pointer; position: absolute; bottom: 10%; right: 40%;}

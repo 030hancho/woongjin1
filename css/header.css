@@ -1,0 +1,141 @@
+.wrap
+{
+    width: 1280px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* header */
+#header
+{
+    width: 100%;
+    height: 180px;
+}
+
+/* top_header */
+.top_header
+{
+    height: 135px;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+}
+
+ul.header_tl
+{
+    float: left;
+}
+ul.header_tl>li
+{
+    float: left;
+}
+ul.header_tl>li>a
+{
+    display: block;
+    font: 400 14px 'notosanskr';
+    padding: 86px 18px 30px 0;
+    color: #6f7271;
+}
+ul.header_tl>li:first-child a{padding-left: 18px;}
+ul.header_tl>li a::after
+{
+    content: '|';
+    margin-left: 18px;
+    color: #e0e0e0;
+}
+ul.header_tl li:last-child a::after{content: '';}
+
+h1.logo
+{
+    width: auto;
+    height: 98px;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+
+ul.header_tr
+{
+    float: right;
+    margin-top: 80px;
+}
+ul.header_tr>li
+{
+    float: left;
+}
+ul.header_tr>li>a
+{
+    display: block;
+    margin-right: 18px;
+}
+ul.header_tr>li select
+{
+    border-radius: 50px;
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #6f7271;
+    -webkit-appearance: none;
+    background: url(../img/icon/select_family.png) no-repeat 80%;
+}
+
+/* bot_header */
+.bot_header
+{
+    width: 100%;
+    height: 77px;
+    margin: 0 29%;
+}
+
+ul.header_b{}
+ul.header_b>li
+{
+    float: left;
+}
+ul.header_b>li>a
+{
+    display: block;
+    font: medium 18px 'notosanskr';
+    color: #6f7271;
+    padding: 26px 27px;
+}
+
+.gnb.on{display: block;}
+.gnb
+{
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 124px;
+    height: 280px;
+    text-align: center;
+    z-index: 4;
+    margin-top: 20px;
+}
+.gnb>a
+{
+    display: block;
+    font: 14px 'notosanskr';
+    padding: 4px 0;
+}
+.gnb>a:hover{color: #71b200;}
+.g1{left: 365.2px;}
+.g2{left: 471.2px;}
+.g3{left: 577.2px;}
+.g4{left: 690.2px;}
+.g5{left: 795.2px;}
+
+.gnbbg.on{display: block;}
+.gnbbg
+{
+    display: none;
+    position: absolute;
+    top: 202px;
+    left: 0;
+    width: 100%;
+    height: 310px;
+    background-color: #fff;
+    z-index: 3;
+    border-top: 1px solid #71b200;
+    border-bottom: 1px solid #71b200;
+}
